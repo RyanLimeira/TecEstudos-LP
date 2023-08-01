@@ -267,11 +267,11 @@ tfoot td {
     transform: rotateY(-180deg);
 }
 
-.cards:hover .front {
+.cards:hover .front, .cards:active .front {
     transform: rotateY(180deg);
 }
 
-.cards:hover .back {
+.cards:hover .back, .cards:active .back {
     transform: rotateY(0);
 }
 
