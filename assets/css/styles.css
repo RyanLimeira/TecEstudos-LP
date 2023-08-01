@@ -483,11 +483,11 @@ body .full-width {
         display: none;
     }
 
-    .cards:hover .front {
+    .cards:active .front {
         transform: rotateY(180deg);
     }
     
-    .cards:hover .back {
+    .cards:active .back {
         transform: rotateY(0);
     }
 
