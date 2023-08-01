@@ -247,7 +247,7 @@ tfoot td {
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    transition: all 700ms;
+    transition: all 300ms;
     border: 0.2rem solid #FFFFFF;
     border-radius: 1rem;
     display: flex;
