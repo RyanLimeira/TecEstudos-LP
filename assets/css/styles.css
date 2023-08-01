@@ -110,10 +110,11 @@ tfoot td {
 }
 
 .main-content {
-    max-width: 120rem;
+    max-width: 100%;
     margin: 0 auto;
     padding: 8rem var(--gap);
 }
+
 
 .section {
     min-height: 100vh;
@@ -302,6 +303,11 @@ tfoot td {
     gap: var(--gap);
 }
 
+.form-img img {
+    max-width: 100%;
+    height: auto;
+}
+
 .form-grid legend {
     font-style: italic;
     font-size: 1.6rem;
@@ -380,7 +386,7 @@ body .full-width {
     flex: 1 1 100%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .home-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -434,5 +440,11 @@ body .full-width {
 
     .menu-spacing {
         display: none;
+    }
+
+    @media (max-width: 768px) {
+        h1, h2 {
+            font-size: 4rem;
+        }
     }
 }
