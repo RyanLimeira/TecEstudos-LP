@@ -444,6 +444,14 @@ body .full-width {
         display: none;
     }
 
+    .cards:hover .front {
+        transform: rotateY(180deg);
+    }
+    
+    .cards:hover .back {
+        transform: rotateY(0);
+    }
+
     @media (max-width: 768px) {
         h1, h2 {
             font-size: 4rem;
@@ -473,6 +481,14 @@ body .full-width {
 
     .menu {
         display: none;
+    }
+
+    .cards:hover .front {
+        transform: rotateY(180deg);
+    }
+    
+    .cards:hover .back {
+        transform: rotateY(0);
     }
 
     .close-menu-label::after {
