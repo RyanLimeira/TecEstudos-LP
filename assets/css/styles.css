@@ -267,11 +267,11 @@ tfoot td {
     transform: rotateY(-180deg);
 }
 
-.cards:hover .front, .cards:active .front, .cards:focus .front {
+.cards:hover .front {
     transform: rotateY(180deg);
 }
 
-.cards:hover .back, .cards:active .back, .cards:focus .back {
+.cards:hover .back {
     transform: rotateY(0);
 }
 
@@ -444,13 +444,6 @@ body .full-width {
         display: none;
     }
 
-    .cards:hover .front, .cards:active .front, .cards:focus .front {
-        transform: rotateY(180deg);
-    }
-    
-    .cards:hover .back, .cards:active .back, .cards:focus .back {
-        transform: rotateY(0);
-    }
 
     @media (max-width: 768px) {
         h1, h2 {
@@ -513,11 +506,4 @@ body .full-width {
         display: none;
     }
 
-    .cards:hover .front, .cards:active .front, .cards:focus .front {
-        transform: rotateY(180deg);
-    }
-    
-    .cards:hover .back, .cards:active .back, .cards:focus .back {
-        transform: rotateY(0);
-    }
 }
